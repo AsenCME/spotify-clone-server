@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es6",
+    "rootDir": "./",
+    "esModuleInterop": true,
+    "typeRoots": ["./node_modules/@types", "./custom.d.ts"],
+  },
+  "exclude": ["node_modules"],
+  "include": ["./**/*.tsx", "./**/*.ts"]
+}
